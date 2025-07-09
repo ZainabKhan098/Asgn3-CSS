@@ -5,12 +5,161 @@
     color: brown;
     line-height: 2.5;
 }
-#unique{
+/* #unique{
     background-color: burlywood;
     font-weight: bolder;
     font-size: x-large;
-}
+} */
 h1{
     color:green;
     font-style: oblique;
+}
+.txt-decoration{
+   /* text-decoration:underline ;  */
+   /* text-decoration: overline; */
+   text-decoration: line-through;
+   background-color: cornflowerblue;
+}
+.transforms{
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+    /* text-transform: none; */
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: gray;
+}
+.word{
+    text-align: center;
+    font-size: 35px;
+    /* word-spacing: 20px; */
+    /* letter-spacing: 30px; */
+    line-height: 45px;
+}
+.google{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center ;
+}
+.g{
+    color: #4287f5ff;
+}
+.o{
+    color: #fabd05ff;
+}
+.e{
+    color: #eb4536ff;
+}
+.l{
+    color: #34a853ff;
+}
+ul{
+    list-style-type: disc;
+    font-size: 25px;
+    /* list-style-image: url("images/code.jpg"); */
+}
+#bg-img{
+    font-size: 29px;
+    background-image: url("images/down.jpeg");
+    background-repeat: no repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;  
+    background-position: center;
+    /* background-color: #34a853ff; */
+}
+.op{
+    background-color:#34a853ff ;
+    opacity: 0.6;
+    font-size: 45px;
+}
+.first{
+    opacity: 0.1;
+}
+.second{
+    opacity: 0.3;
+}
+.third{
+    opacity: 0.6;
+}
+.border-property{
+    font-size: 30px;
+    /* border-style: solid;
+    border-radius: 20px; */
+    border-width: 5px;
+    /* border-color:#007fe0ff; */
+    border: 5px dotted #007fe0ff;
+}
+.image{
+   height: 250px;
+   width: 250px;
+   /* float: right;  */
+   /* float: left; */
+}
+.display-property{
+    font-size: 25px;
+   visibility: hidden;
+   /* display: none; */
+}
+.mp-property{
+    border-style: solid;
+    border-color:#fabd05ff; 
+    /* margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin: 100px;
+    margin: 100px 200px; */
+    margin: 100px 130px 150px 170px;
+    /* padding-top: 70px;
+    padding-bottom: 80px;
+    padding-right: 90;
+    padding-left: 100px;
+    padding: 100px 150px; */
+    padding: 100px;
+    /* padding: 70px 80px 90px 100px; */
+}
+.pos{
+    height: 450px;
+    width: 450px;
+    /* position: fixed; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 200px; */
+    /* bottom: 150px; */
+    /* right: 190px; */
+    /* left: 50px; */
+}
+.grid-prop{
+    display: grid;
+    /* display: inline-grid; */
+    background-image: url("https://img.freepik.com/premium-photo/romantic-blue-abstract-creative-background-design_851755-209788.jpg");
+    /* background-color: #035c5cff; */
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    grid-template-columns: auto auto auto;
+    /* grid-column-gap: 20px; */
+    /* grid-row-gap: 20px; */
+    border-radius: 10px;
+    grid-gap: 20px 20px;
+}
+.grid-item{
+    background-color: #b5c0c7ff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+    grid-row: 1/3;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
 }
